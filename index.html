@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitsubishi XFORCE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js" defer></script>
+  <script src="carousel.js" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <a class="navbar-brand" href="/">XFORCE</a>
+      <ul class="navbar-nav" id="navbar-toggle">
+        <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link" id="dropdown-toggle">product<i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="dropdown-menu">
+            <li class="dropdown-item"><a href="#" class="nav-link">category 1</a></li>
+            <li class="dropdown-item"><a href="#" class="nav-link">category 2</a></li>
+            <li class="dropdown-item"><a href="#" class="nav-link">category 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+      </ul>
+      <a href="#" class="hamburger-icon" id="hamburger-icon">&#9776;</a>
+    </div>
+  </header>
+
+  <!-- Hero image -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h2>start your adventure</h2>
+      <a href="#">Try now</a>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <!-- Main -->
+  <main class="container">
+    <div class="row">
+      <div class="carousel">
+        <div class="carousel-item" style="display: block;">
+          <img src="./images/carousel/carousel-1.jpg" alt="" loading="eager">
+          <div class="caption">Image 1 caption</div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel/carousel-2.jpg" alt="" loading="eager">
+          <div class="caption">Image 2 caption</div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel/carousel-3.jpg" alt="" loading="eager">
+          <div class="caption">Image 3 caption</div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel/carousel-4.jpg" alt="" loading="eager">
+          <div class="caption">Image 4 caption</div>
+        </div>
+        <div class="carousel-control">
+          <a class="prev" onclick="prev()">❮</a>
+          <a class="next" onclick="next()">❯</a>
+        </div>
+        <div class="carousel-indicators">
+          <span class="dot active" onclick="currentCarouselItem(0)"></span>
+          <span class="dot" onclick="currentCarouselItem(1)"></span>
+          <span class="dot" onclick="currentCarouselItem(2)"></span>
+          <span class="dot" onclick="currentCarouselItem(3)"></span>
+        </div>
+
+      </div>
+      <section class="recent-articles">
+        <h3>Recent Articles</h3>
+        <a href="#">Xforce or Yaris Cross?</a>
+        <a href="#">Top Cars of the Third Quarter - Mitsubishi Xforce Overwhelms Sales</a>
+        <a href="#">Xforce or Suzuki XL7 Hybrid?</a>
+      </section>
+    </div>
+
+    <div class="row">
+      <div class="article">
+        <h2>Introduction</h2>
+        <p>Jan 10, 2024, <a href="#">Mitsubishi Motors Vietnam</a> officially premieres the all-new XFORCE –
+          a class-B SUV by Mitsubishi Motors. </p>
+
+        <p>
+          The all-new XFORCE was developed with a focus on the way compact SUVs are used in the ASEAN region in general,
+          and in Vietnam in particular. The SUV was developed based on the results of a thorough research on customer
+          habits to answer the needs of drivers and has gone through repeated tuning on over 4,000km in Vietnam and
+          10,000km in the ASEAN region across varieties of terrains, traffic, and weather conditions.
+          <span><a class="read-more" href="#">Read more</a></span>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="article">
+          <img src="./images/carousel/article-1.jpg" alt="" loading="lazy">
+          <p>
+            With the positioning “BEYOND EXPECTATIONS”, XFORCE is the best-suited buddy for an exciting life with plenty
+            of outstanding characteristics.
+          </p>
+        </div>
+        <div class="article">
+          <p>
+            Understanding the market requirements for compact SUVs, Mitsubishi Motors developed XFORCE with three core
+            values, including EXCITEMENT - COMFORT - PRACTICALITY and is the ideal car model that meets three important
+            criteria: impressive design, outstanding comfort, and high applicability.
+          </p>
+        </div>
+        <div class="article">
+          <img src="./images/carousel/article-2.jpg" alt="" loading="lazy">
+          <p>
+            Mitsubishi Motors Vietnam introduces four versions of XFORCE containing GLX, Exceed, Premium, and Ultimate,
+            fully meeting the needs of daily travel and adventures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="contact">
+      <h3>Contact</h3>
+      <p>1400 John F Kennedy blvd</p>
+      <p>philadelphia, PA 19107 </p>
+    </div>
+    <div class="connect">
+      <h3>Connect</h3>
+      <a href="#"><i class='fa fa-facebook-square'></i></a>
+      <a href="#"><i class='fa fa-instagram'></i></a>
+      <a href="#"><i class='fa fa-twitter'></i></a>
+    </div>
+    <div class="copy-right">
+      Copyright
+      <i class='fa fa-copyright'></i>
+      2021
+    </div>
+  </footer>
+
+</body>
+
+</html>
